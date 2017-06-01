@@ -1,0 +1,132 @@
+body{
+	background-color: rgb(56, 56, 56);
+	color: white;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-family: Microsoft JhengHei Light;
+	font-size: 50px;
+}
+main{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#home-image{
+	width: 80%;
+	height: 500px;
+}
+button{
+
+	height: 70px;
+	width: 300px;
+	margin: 30px;
+	background-color: transparent; 
+	border: 2px solid white;
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+	transition: .1s;
+}
+.button{
+	background-color: white;
+	color: black;
+}
+button:hover, #button-one:hover{
+	color: white;
+	background-color: rgb(0, 186, 219);
+	border-color: rgb(0, 186, 219);
+	cursor: pointer;
+}
+/*Assignments page*/
+#assign-container{
+	height: 200px;
+	width: 90%;
+	margin-bottom: 30px;
+	background-color: gray;
+	position: relative;
+}
+#assign-img{
+	height: 100%;
+	width: 355px;
+}
+h2, #assign-text{
+	margin: 0;
+	position: absolute;
+	left: 375px;
+	font-family: Microsoft JhengHei Light;
+}
+h2, #assign-text{cursor: default;}
+#assign-text, #delete{top: 50px;}
+h2, #edit{top: 10px;}
+#edit:hover{color: rgb(0, 186, 219);}
+#delete:hover{color: rgb(170, 0, 0);}
+.icons{
+	transition: .1s;
+	right: 30px;
+	margin: 0;
+	font-size: 30px;
+	position: absolute;
+}
+.icons:hover{cursor: pointer;}
+/*edit, create, login*/
+.container, .container-login{width: 65%; background-color: gray; margin-bottom: 20px;}
+input[type="file"], input[type="text"], textarea, .button-create{margin: 30px 0px 0px 30px;}
+#input-text{
+	height: 20px;
+	width: 300px;
+	padding-left: 5px;
+}
+.button-create{
+	color: white;
+	height: 30px;
+	width: 100px;
+	margin-bottom: 30px;
+	background-color: transparent;
+	border: 2px solid white;
+	transition: .1s;
+}
+.button-create:hover{
+	background-color: rgb(0, 186, 219);
+	border: 2px solid rgb(0, 186, 219);
+	cursor: pointer;
+}
+/*loin menu*/
+td{
+	font-family: verdana;
+}
+legend{
+	font-family: verdana;
+}
+#button{
+	background-color: rgb(74,109,167);
+	width: 100px;
+	border: none;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+}
+#button:hover{
+	background-color: rgb(28, 69, 135);
+	cursor: pointer;
+}
+/*about*/
+span{color: rgb(0, 186, 219);}
+.about-text, h3{
+	font-family: verdana;
+	font-size: 25px;
+	margin: 10px;
+}
+h3{width: 100%;}
+/*login*/
+.comtainer-login{
+	display: flex;
+}
+#input-title, #input-field{
+	width: 200px;
+	display: inline-block;
+}
+a{
+	color: white;
+}
